@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Bi-S25fM)
 # Reverse Insertion Sort
 
 Consider the code for insertion sort we covered in class:
@@ -36,3 +37,8 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+
+## My Analysis
+
+The average-case complexity is $\Theta(n^2)$. This is because we will still run through the entire outer loop $n$ times and run through the inner loop roughly half (very dependent on the given array, but a constant factor in terms of input size) of $n$ times. Asymptotically, this is $n$ iterations (for the outer loop) times $n$ iterations (for the inner loop) or $n^2$.
